@@ -11,41 +11,34 @@ public class emojiController : MonoBehaviour {
     public GameObject cubeEmoji;
     public GameObject sphereEmoji;
     public GameObject cylinderEmoji;
+    public GameObject buttonObject;
+    public GameObject openingObject;
+    public GameObject instructionsObject;
 
     // Use this for initialization
     void Start () {
         helloCTRL = transform.GetComponent<HelloARController>();
-
+        buttonObject.SetActive(false);
+        instructionsObject.SetActive(false);
+        openingObject.SetActive(true);
     }
 	
 	// Update is called once per frame
 	void Update () {
-    /*
-     * Create an array of gameobjects
-     *     Eventually, how do i populate those gameobjects in the array?
-     * 
-     * Create a bool to track whether an emoji has been selected
-     * Create a temporary gameobject to hold the SelectedGameObject
-     * 
-     * Does canvas allow for onselect events?
-     * Create a string to hold the SelectedGameObjectName
-     * OnSelect, what is the name of what you selected
-     * SelectedGameObjectName = that name
-     * 
-     * Use the SelectedGameObjectName to assign a specific prefab to the SelectedGameObjectName
-     * 
-    */
-    //if (isSelected)
-       // {
-           /* // i need to pull in the return from ButtonScript clickMe function (its a string)
-            ButtonScript.Script
-            
-                // how do i use the string to call a specific game object?
-                selectedEmoji.GetComponent. = 
-                */
-        //    SwitchEmoji(selectedEmoji);
+ 
+    }
 
-        //}
+
+    public void OpeningClick()
+    {
+        instructionsObject.SetActive(true);
+        openingObject.SetActive(false);
+    }
+
+    public void InstructionsClick()
+    {
+        buttonObject.SetActive(true);
+        instructionsObject.SetActive(false);
     }
 
     public void SelectionClicked(string clickedName)
