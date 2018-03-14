@@ -303,9 +303,9 @@ GameObject:
   - component: {fileID: 756624418}
   - component: {fileID: 756624422}
   - component: {fileID: 756624421}
-  - component: {fileID: 756624423}
   - component: {fileID: 756624420}
   - component: {fileID: 756624419}
+  - component: {fileID: 756624423}
   m_Layer: 0
   m_Name: TextMeshPro
   m_TagString: Untagged
@@ -498,14 +498,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 756624417}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c902e72383724052a3335c92053dab7, type: 3}
+  m_Script: {fileID: 11500000, guid: 1bfbf8508c11f4d348b23ec37436902c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StartMaterial: {fileID: 0}
-  EndMaterial: {fileID: 0}
-  rend: {fileID: 0}
-  FadeDelay: 17
-  FadeTime: 5
+  FadeDelay: 14
+  FadeTime: 7
 --- !u!1 &825786383
 GameObject:
   m_ObjectHideFlags: 0
