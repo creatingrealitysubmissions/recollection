@@ -183,9 +183,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Cube
-
-'
+  m_Text: Crown
 --- !u!222 &63894328
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -297,7 +295,7 @@ MonoBehaviour:
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 2100000, guid: dd4da7ffcf06a4546ba9730a02ddaee9, type: 2}
+  m_Material: {fileID: 2100000, guid: dbde49f140cb6de47998d768e0245689, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
@@ -493,10 +491,10 @@ MonoBehaviour:
   helloCTRL: {fileID: 627916103}
   buttonScriptConnection: {fileID: 0}
   isSelected: 0
-  cubeEmoji: {fileID: 1170953501030272, guid: 252fb7e2cba579f49b5d1cae05936f55, type: 2}
-  sphereEmoji: {fileID: 1179291445501272, guid: 5ea6816d9f7ef984eb16ea238057e81b,
+  cubeEmoji: {fileID: 1378916889813658, guid: cc7a801054c8c744cabfec0b90fb587a, type: 2}
+  sphereEmoji: {fileID: 1205517544318534, guid: d698ab393106b8c42b42d2093fe2ceb3,
     type: 2}
-  cylinderEmoji: {fileID: 1446403397436408, guid: 8883211053b72714481e64237c2539c6,
+  cylinderEmoji: {fileID: 1662452376560744, guid: db6c5ab2b20f0384d9c3e5a9bc1bae44,
     type: 2}
 --- !u!20 &896679035 stripped
 Camera:
@@ -535,11 +533,11 @@ RectTransform:
   m_Children:
   - {fileID: 1100532925}
   m_Father: {fileID: 1944088366}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 629.17, y: 123}
+  m_AnchoredPosition: {x: 629.1699, y: 123}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &898546005
@@ -607,7 +605,7 @@ MonoBehaviour:
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 2100000, guid: 7fa89acdc4d9eed428f7e9a5dd93c9fc, type: 2}
+  m_Material: {fileID: 2100000, guid: dbde49f140cb6de47998d768e0245689, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
@@ -700,7 +698,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Sphere
+  m_Text: 'Medal
 
 '
 --- !u!222 &1100532927
@@ -1290,7 +1288,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1944088366}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1814432331
 MonoBehaviour:
@@ -1397,8 +1395,8 @@ RectTransform:
   m_Children:
   - {fileID: 1128961599}
   - {fileID: 70525476}
-  - {fileID: 898546004}
   - {fileID: 1814432330}
+  - {fileID: 898546004}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1477,7 +1475,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Cylinder
+  m_Text: Crystal
 --- !u!222 &1960676016
 CanvasRenderer:
   m_ObjectHideFlags: 0
